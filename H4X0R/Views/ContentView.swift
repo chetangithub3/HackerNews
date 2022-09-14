@@ -23,10 +23,12 @@ struct ContentView: View {
                 
             }
             .navigationTitle("H4X0R News")
+            // content view
         }
         
         .onAppear {
             networkManager.fetchData()
+            // adding function
         }
         
         
